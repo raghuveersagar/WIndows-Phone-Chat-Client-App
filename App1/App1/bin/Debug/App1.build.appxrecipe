@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>RAGHUVEER</Machine>
+    <WindowsUser>rs1044</WindowsUser>
+    <TargetPlatformIdentifier>WindowsPhoneApp</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>38c48d03-c952-47e5-8abf-6f6ee148a0d3</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\rs1044\documents\visual studio 2015\Projects\App1\App1\obj\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\rs1044\documents\visual studio 2015\Projects\App1\App1\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\rs1044\documents\visual studio 2015\Projects\App1\App1\bin\Debug\App1.exe">
+      <PackagePath>App1.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rs1044\documents\visual studio 2015\Projects\App1\packages\Newtonsoft.Json.7.0.1-beta3\lib\portable-net40+sl5+wp80+win8+wpa81\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rs1044\documents\visual studio 2015\Projects\App1\App1\Assets\Logo.scale-240.png">
+      <PackagePath>Assets\Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rs1044\documents\visual studio 2015\Projects\App1\App1\Assets\pin.png">
+      <PackagePath>Assets\pin.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rs1044\documents\visual studio 2015\Projects\App1\App1\Assets\SmallLogo.scale-240.png">
+      <PackagePath>Assets\SmallLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rs1044\documents\visual studio 2015\Projects\App1\App1\Assets\SplashScreen.scale-240.png">
+      <PackagePath>Assets\SplashScreen.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rs1044\documents\visual studio 2015\Projects\App1\App1\Assets\Square71x71Logo.scale-240.png">
+      <PackagePath>Assets\Square71x71Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rs1044\documents\visual studio 2015\Projects\App1\App1\Assets\StoreLogo.scale-240.png">
+      <PackagePath>Assets\StoreLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rs1044\documents\visual studio 2015\Projects\App1\App1\Assets\WideLogo.scale-240.png">
+      <PackagePath>Assets\WideLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rs1044\documents\visual studio 2015\Projects\App1\App1\Common\ReadMe.txt">
+      <PackagePath>Common\ReadMe.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rs1044\documents\visual studio 2015\Projects\App1\App1\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rs1044\documents\visual studio 2015\Projects\App1\App1\bin\Debug\ContactList.xbf">
+      <PackagePath>ContactList.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rs1044\documents\visual studio 2015\Projects\App1\App1\bin\Debug\Login.xbf">
+      <PackagePath>Login.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rs1044\documents\visual studio 2015\Projects\App1\App1\bin\Debug\MapView.xbf">
+      <PackagePath>MapView.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rs1044\documents\visual studio 2015\Projects\App1\App1\bin\Debug\UserMessages.xbf">
+      <PackagePath>UserMessages.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rs1044\documents\visual studio 2015\Projects\App1\App1\bin\Debug\App1.xr.xml">
+      <PackagePath>App1.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rs1044\documents\visual studio 2015\Projects\App1\App1\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

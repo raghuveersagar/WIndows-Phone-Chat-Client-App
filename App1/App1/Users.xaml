@@ -1,0 +1,43 @@
+﻿<Page
+    x:Class="App1.Users"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:App1"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    DataContext="{Binding DefaultViewModel, RelativeSource={RelativeSource Self}}"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+
+    <Grid>
+        <Pivot x:Uid="Pivot" Title="MY APPLICATION" x:Name="pivot" CommonNavigationTransitionInfo.IsStaggerElement="True">
+            <!--Pivot item one-->
+            <PivotItem
+                x:Uid="PivotItem1"
+                Margin="19,14.5,0,0"
+                Header="first"
+                
+              
+                CommonNavigationTransitionInfo.IsStaggerElement="True">
+                <!--Double line list with text wrapping-->
+                <ListView
+                    ItemsSource="{Binding users}"
+                    IsItemClickEnabled="True"
+                    ItemClick="ItemView_ItemClick"
+                   ContinuumNavigationTransitionInfo.ExitElementContainer="True"
+                    ScrollViewer.IsVerticalRailEnabled="True"
+                    >
+                    
+                </ListView>
+            </PivotItem>
+
+            <PivotItem>
+                
+            </PivotItem>
+            
+            <!--Pivot item two-->
+        </Pivot>
+    </Grid>
+
+    </Page>

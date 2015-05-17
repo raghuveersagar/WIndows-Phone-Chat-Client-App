@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Roots xmlns="clr-namespace:Microsoft.Xaml.Tools.XamlCompiler.RootLog;assembly=Microsoft.Windows.UI.Xaml.81.Build.Tasks">
+  <Roots.Interfaces>
+    <RootInterface FullName="Windows.UI.Xaml.Data.IValueConverter" />
+  </Roots.Interfaces>
+  <Roots.PropertyPathNames>
+    <RootPropertyPathName Name="DefaultViewModel" />
+    <RootPropertyPathName Name="ContactList" />
+    <RootPropertyPathName Name="LastName" />
+    <RootPropertyPathName Name="FirstName" />
+    <RootPropertyPathName Name="Password" />
+    <RootPropertyPathName Name="Username" />
+    <RootPropertyPathName Name="MapList" />
+    <RootPropertyPathName Name="user_info" />
+    <RootPropertyPathName Name="geo_point" />
+    <RootPropertyPathName Name="Anchor" />
+    <RootPropertyPathName Name="first_name" />
+    <RootPropertyPathName Name="message" />
+    <RootPropertyPathName Name="msg_type" />
+    <RootPropertyPathName Name="NameOfUser" />
+  </Roots.PropertyPathNames>
+  <Roots.RootTypes>
+    <RootType FullName="Windows.UI.Xaml.Application" />
+    <RootType FullName="Windows.UI.Xaml.Controls.Page">
+      <RootProperty Name="DataContext" />
+      <RootProperty Name="Background" />
+      <RootProperty Name="Content" />
+      <RootProperty Name="Resources" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Data.Binding">
+      <RootProperty Name="RelativeSource" />
+      <RootProperty Name="Mode" />
+      <RootProperty Name="Converter" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Data.RelativeSource" />
+    <RootType FullName="Microsoft.Xaml.Tools.DirectUI.ProxyTypes.ThemeResourceExtension" />
+    <RootType FullName="Windows.UI.Xaml.Controls.Grid">
+      <RootProperty Name="ChildrenTransitions" />
+      <RootProperty Name="RowDefinitions" />
+      <RootProperty Name="Children" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="Background" />
+      <RootProperty Name="ColumnDefinitions" />
+      <RootMethod Name="GetRow" />
+      <RootMethod Name="SetRow" />
+      <RootMethod Name="GetRowSpan" />
+      <RootMethod Name="SetRowSpan" />
+      <RootMethod Name="GetColumn" />
+      <RootMethod Name="SetColumn" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Media.Animation.TransitionCollection" />
+    <RootType FullName="Windows.UI.Xaml.Media.Animation.EntranceThemeTransition" />
+    <RootType FullName="Windows.UI.Xaml.Controls.RowDefinition">
+      <RootProperty Name="Height" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.StackPanel">
+      <RootProperty Name="Margin" />
+      <RootProperty Name="Children" />
+      <RootProperty Name="Orientation" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.ListView">
+      <RootProperty Name="Name" />
+      <RootProperty Name="ItemsSource" />
+      <RootProperty Name="IsItemClickEnabled" />
+      <RootProperty Name="ItemContainerStyle" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="Items" />
+      <RootProperty Name="ItemTemplate" />
+      <RootEvent Name="ItemClick" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.ListViewItem" />
+    <RootType FullName="Windows.UI.Xaml.Controls.Control">
+      <RootProperty Name="FontSize" />
+      <RootProperty Name="BorderBrush" />
+      <RootProperty Name="BorderThickness" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Setter">
+      <RootProperty Name="Property" />
+      <RootProperty Name="Value" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.TextBlock">
+      <RootProperty Name="Text" />
+      <RootProperty Name="Style" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="CharacterSpacing" />
+      <RootProperty Name="FontSize" />
+      <RootProperty Name="Foreground" />
+      <RootProperty Name="Name" />
+      <RootProperty Name="Visibility" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="TextAlignment" />
+      <RootProperty Name="TextWrapping" />
+    </RootType>
+    <RootType FullName="App1.ContactList" />
+    <RootType FullName="Windows.UI.Xaml.Controls.Button">
+      <RootProperty Name="Name" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="Content" />
+      <RootProperty Name="Visibility" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="Tag" />
+      <RootProperty Name="Template" />
+      <RootProperty Name="Height" />
+      <RootEvent Name="Click" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.CheckBox">
+      <RootProperty Name="Width" />
+      <RootProperty Name="Content" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="IsChecked" />
+      <RootEvent Name="Checked" />
+      <RootEvent Name="Unchecked" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.TextBox">
+      <RootProperty Name="Name" />
+      <RootProperty Name="Text" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="Visibility" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="TextWrapping" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Foreground" />
+      <RootProperty Name="Background" />
+      <RootProperty Name="FontSize" />
+    </RootType>
+    <RootType FullName="App1.Login" />
+    <RootType FullName="Windows.UI.Xaml.Controls.Maps.MapControl">
+      <RootProperty Name="Children" />
+      <RootMethod Name="GetLocation" />
+      <RootMethod Name="SetLocation" />
+      <RootMethod Name="GetNormalizedAnchorPoint" />
+      <RootMethod Name="SetNormalizedAnchorPoint" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Maps.MapItemsControl">
+      <RootProperty Name="ItemsSource" />
+      <RootProperty Name="ItemTemplate" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.DataTemplate">
+      <RootProperty Name="Template" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.ControlTemplate">
+      <RootProperty Name="Template" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Image">
+      <RootProperty Name="Source" />
+      <RootProperty Name="Height" />
+    </RootType>
+    <RootType FullName="App1.MapView" />
+    <RootType FullName="App1.MsgTypeToAlign" />
+    <RootType FullName="App1.MsgTypeToMargin" />
+    <RootType FullName="Windows.UI.Xaml.Controls.ColumnDefinition">
+      <RootProperty Name="Width" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.ScrollViewer">
+      <RootProperty Name="Name" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.UIElement">
+      <RootProperty Name="IsHitTestVisible" />
+    </RootType>
+    <RootType FullName="Microsoft.Xaml.Tools.DirectUI.ProxyTypes.StaticResourceExtension" />
+    <RootType FullName="App1.UserMessages" />
+  </Roots.RootTypes>
+</Roots>

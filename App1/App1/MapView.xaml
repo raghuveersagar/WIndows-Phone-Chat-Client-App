@@ -1,0 +1,70 @@
+﻿<Page
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:App1"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:Maps="using:Windows.UI.Xaml.Controls.Maps"
+    x:Class="App1.MapView"
+    mc:Ignorable="d"
+    DataContext="{Binding DefaultViewModel, RelativeSource={RelativeSource Self}}"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid x:Name="LayoutRoot">
+
+        <Grid.ChildrenTransitions>
+            <TransitionCollection>
+                <EntranceThemeTransition/>
+            </TransitionCollection>
+        </Grid.ChildrenTransitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Title Panel -->
+        <StackPanel Grid.Row="0" Margin="19,0,0,0">
+            <TextBlock Text="Chat Application" Style="{ThemeResource TitleTextBlockStyle}" Margin="0,12,0,0"/>
+            <TextBlock Text="Location Of Contacts" Margin="0,-6.5,0,26.5" Style="{ThemeResource HeaderTextBlockStyle}" CharacterSpacing="{ThemeResource PivotHeaderItemCharacterSpacing}" TextWrapping="Wrap"/>
+        </StackPanel>
+
+        <!--TODO: Content should be placed within the following grid-->
+        <Grid Grid.Row="1" x:Name="ContentRoot" Margin="19,9.5,19,0">
+
+            <Maps:MapControl x:Name="Map"
+                         >
+                
+                <Maps:MapItemsControl  ItemsSource="{Binding MapList}">
+                    <Maps:MapItemsControl.ItemTemplate>
+                        <DataTemplate>
+                            <Button Click="map_loc_clicked" Tag="{Binding user_info}">
+                                <Button.Template>
+                                    <ControlTemplate>
+                                        <StackPanel Orientation="Vertical">
+
+                                            
+                                                <TextBlock Text="{Binding first_name}" Foreground="Black" TextAlignment="Center"/>
+                                            
+                                            <Image Source="Assets/pin.png" Height="35"    
+                               Maps:MapControl.Location="{Binding geo_point}" 
+                            Maps:MapControl.NormalizedAnchorPoint="{Binding Anchor}" >
+                                        
+                                        </Image>
+                                        </StackPanel>
+
+
+
+
+
+
+                                    </ControlTemplate>
+                                </Button.Template>
+                            </Button>
+                        </DataTemplate>
+                    </Maps:MapItemsControl.ItemTemplate>
+                </Maps:MapItemsControl>
+            </Maps:MapControl>
+        </Grid>
+    </Grid>
+</Page>
